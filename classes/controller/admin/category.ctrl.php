@@ -1,6 +1,6 @@
 <?php
-namespace NoviusDev\BlogNews\News;
+namespace Nos\BlogNews\News;
 
-class Controller_Admin_Category extends \NoviusDev\BlogNews\Controller_Admin_Category {
+class Controller_Admin_Category extends \Nos\BlogNews\Controller_Admin_Category {
 
 }

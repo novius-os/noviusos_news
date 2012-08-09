@@ -1,10 +1,10 @@
 <?php
 
-namespace NoviusDev\BlogNews\News;
+namespace Nos\BlogNews\News;
 
 use Fuel\Core\Config;
 use Asset, Format, Input, Session, View, Uri;
 
-class Controller_Admin_Post extends \NoviusDev\BlogNews\Controller_Admin_Post {
+class Controller_Admin_Post extends \Nos\BlogNews\Controller_Admin_Post {
 
 }

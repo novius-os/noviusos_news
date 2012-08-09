@@ -1,6 +1,6 @@
 <?php
-namespace NoviusDev\BlogNews\News;
+namespace Nos\BlogNews\News;
 
-class Controller_Admin_Inspector_Tag extends \NoviusDev\BlogNews\Controller_Admin_Inspector_Tag {
+class Controller_Admin_Inspector_Tag extends \Nos\BlogNews\Controller_Admin_Inspector_Tag {
 
 }

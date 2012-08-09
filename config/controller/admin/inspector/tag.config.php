@@ -2,7 +2,7 @@
 
 $config = array(
 	'query' => array(
-		'model' => 'NoviusDev\BlogNews\News\Model_Tag',
+		'model' => 'Nos\BlogNews\News\Model_Tag',
 		'order_by' => 'tag_label',
 	),
 );

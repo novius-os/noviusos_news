@@ -8,10 +8,10 @@
  * @link http://www.novius-os.org
  */
 
-namespace NoviusDev\BlogNews\News;
+namespace Nos\BlogNews\News;
 
 
 
-class Controller_Front extends \NoviusDev\BlogNews\Controller_Front {
+class Controller_Front extends \Nos\BlogNews\Controller_Front {
 
 }

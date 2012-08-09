@@ -1,1 +1,1 @@
-RENAME TABLE  `nos_site_noviusos`.`news_categories_news` TO  `nos_site_noviusos`.`news_categories_posts` ;
+RENAME TABLE  `news_categories_news` TO  `news_categories_posts` ;
