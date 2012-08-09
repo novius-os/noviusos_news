@@ -23,7 +23,8 @@ CREATE TABLE IF NOT EXISTS `nos_news_category` (
 
 CREATE TABLE IF NOT EXISTS `nos_news_category_post` (
   `post_id` int(11) NOT NULL,
-  `cat_id` int(11) NOT NULL
+  `cat_id` int(11) NOT NULL,
+  PRIMARY KEY (`post_id`, `cat_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -73,6 +74,7 @@ CREATE TABLE IF NOT EXISTS `nos_news_tag` (
 CREATE TABLE IF NOT EXISTS `nos_news_tag_post` (
   `post_id` int(10) unsigned NOT NULL,
   `tag_id` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`tag_id`, `post_id`),
   KEY `tag_id` (`tag_id`),
   KEY `post_id` (`post_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
