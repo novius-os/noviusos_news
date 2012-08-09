@@ -2,18 +2,18 @@
 return array(
     'name'    => 'News',
     'version' => '0.02-beta203',
-    'href' => 'admin/noviusdev_news/appdesk',
-    'icon64'  => 'static/apps/noviusdev_news/img/news-64.png',
+    'href' => 'admin/noviusos_news/appdesk',
+    'icon64'  => 'static/apps/noviusos_news/img/news-64.png',
     'provider' => array(
         'name' => 'Novius OS',
     ),
     'namespace' => 'NoviusDev\BlogNews\News',
     'launchers' => array(
-        'noviusdev_news' => array(
+        'noviusos_news' => array(
             'name'    => 'News',
-            'url'     => 'admin/noviusdev_news/appdesk',
-            'iconUrl' => 'static/apps/noviusdev_news/img/news-32.png',
-            'icon64'  => 'static/apps/noviusdev_news/img/news-64.png',
+            'url'     => 'admin/noviusos_news/appdesk',
+            'iconUrl' => 'static/apps/noviusos_news/img/news-32.png',
+            'icon64'  => 'static/apps/noviusos_news/img/news-64.png',
         ),
     ),
     'enhancers' => array(
@@ -21,24 +21,24 @@ return array(
             'title' => 'News',
             'desc'  => '',
             //'enhancer' => 'news/front',
-            'enhancer' => 'noviusdev_news/front/home',
+            'enhancer' => 'noviusos_news/front/home',
             'iconUrl' => 'static/apps/news/img/news-16.png',
-            'previewUrl' => 'admin/noviusdev_blognews/application/preview',
+            'previewUrl' => 'admin/noviusos_blognews/application/preview',
             'dialog' => array(
-                'contentUrl' => 'admin/noviusdev_blognews/application/popup',
+                'contentUrl' => 'admin/noviusos_blognews/application/popup',
                 'width' => 450,
                 'height' => 180,
                 'ajax' => true,
             ),
         ),
-        'noviusdev_news' => array(
+        'noviusos_news' => array(
             'title' => 'Page détail news',
             'desc'  => '',
-            'urlEnhancer' => 'noviusdev_news/front/main',
+            'urlEnhancer' => 'noviusos_news/front/main',
             'iconUrl' => 'static/apps/news/img/news-16.png',
-            'previewUrl' => 'admin/noviusdev_blognews/application/preview',
+            'previewUrl' => 'admin/noviusos_blognews/application/preview',
             'dialog' => array(
-                'contentUrl' => 'admin/noviusdev_blognews/application/popup',
+                'contentUrl' => 'admin/noviusos_blognews/application/popup',
                 'width' => 450,
                 'height' => 180,
                 'ajax' => true,

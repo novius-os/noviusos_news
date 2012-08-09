@@ -9,7 +9,7 @@ $config = array(
     'views' => array(
         'default' => array(
             'name' => __('Default view'),
-            'json' => array('static/apps/noviusdev_news/js/admin/news.js', 'static/apps/noviusdev_blognews/js/admin/blognews.js'),
+            'json' => array('static/apps/noviusos_news/js/admin/news.js', 'static/apps/noviusos_blognews/js/admin/blognews.js'),
         ),
     ),
     'i18n' => array(
@@ -18,5 +18,5 @@ $config = array(
         'Delete this post'      => __('Delete this news'),
     ),
 );
-$base = \Config::load('noviusdev_blognews::controller/admin/appdesk', true);
+$base = \Config::load('noviusos_blognews::controller/admin/appdesk', true);
 return array_merge($base, $config);

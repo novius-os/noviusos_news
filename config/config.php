@@ -1,5 +1,5 @@
 <?php
-$base = \Config::load('noviusdev_blognews::config', true);
+$base = \Config::load('noviusos_blognews::config', true);
 $base['comments']['enabled'] = false;
 $base['tags']['enabled'] = false;
 $base['authors']['enabled'] = false;

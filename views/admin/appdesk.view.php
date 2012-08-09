@@ -5,9 +5,9 @@
 <div id="<?= $id ?>"></div>
 <script type="text/javascript">
 <?php
-    \Config::load('noviusdev_news::config', true);
-    $withAuthors = \Config::get('noviusdev_news::config.authors.enabled');
-    $withTags = \Config::get('noviusdev_news::config.tags.enabled');
+    \Config::load('noviusos_news::config', true);
+    $withAuthors = \Config::get('noviusos_news::config.authors.enabled');
+    $withTags = \Config::get('noviusos_news::config.tags.enabled');
 
 ?>
 var Noviusdev = Object();

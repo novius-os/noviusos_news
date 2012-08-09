@@ -1,3 +1,3 @@
 <?php
-\Module::load('noviusdev_blognews');
-\View::redirect('noviusdev_blognews::admin/application/preview', 'noviusdev_news::admin/application/preview');
+\Module::load('noviusos_blognews');
+\View::redirect('noviusos_blognews::admin/application/preview', 'noviusos_news::admin/application/preview');

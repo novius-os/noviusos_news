@@ -1,6 +1,6 @@
 <?php
 return array(
     'tabInfos' => array(
-        'iconUrl' => 'static/apps/noviusdev_news/img/news-16.png',
+        'iconUrl' => 'static/apps/noviusos_news/img/news-16.png',
     )
 );
