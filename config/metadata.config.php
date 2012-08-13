@@ -43,10 +43,6 @@ return array(
                 'height' => 180,
                 'ajax' => true,
             ),
-            'models_url_enhanced' => array(
-                'Nos\BlogNews\News\Model_Post',
-            ),
-            'get_url_model' => array('Nos\BlogNews\News\Controller_Front', 'get_url_model'),
         ),
     )
 );
