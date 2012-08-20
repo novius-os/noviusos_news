@@ -43,6 +43,17 @@ return array(
                 'height' => 180,
                 'ajax' => true,
             ),
+            'get_url_model' => array('Nos\BlogNews\News\Controller_Front', 'get_url_model'),
+            'data_catchers_added' => array(
+                'posts_rss_channel' => array(
+                    'data_catcher' => 'rss_channel',
+                    'title' => __('RSS Post channel'),
+                ),
+                'comments_rss_channel' => array(
+                    'data_catcher' => 'rss_channel',
+                    'title' => __('RSS Comments channel'),
+                ),
+            ),
         ),
     )
 );
