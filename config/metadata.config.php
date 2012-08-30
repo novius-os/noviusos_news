@@ -3,6 +3,7 @@ return array(
     'name'    => 'News',
     'version' => '0.02-beta203',
     'href' => 'admin/noviusos_news/appdesk',
+    'icon16'  => 'static/apps/noviusos_news/img/news-16.png',
     'icon64'  => 'static/apps/noviusos_news/img/news-64.png',
     'provider' => array(
         'name' => 'Novius OS',
