@@ -54,4 +54,3 @@ $base = \Config::load('noviusos_blognews::controller/admin/appdesk', true);
 $config = array_merge($base, $config);
 $config['appdesk'] = \Arr::merge($config['appdesk'], $appdesk);
 return $config;
-
