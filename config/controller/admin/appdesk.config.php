@@ -15,35 +15,35 @@ $config = array(
 );
 $appdesk = array(
     'tab' => array(
-        'label' => __('News'),
+        'label' => __('News stories'),
     ),
     'actions' => array(
         'edit' => array(
             'action' => array(
                 'tab' => array(
-                    'label' => __('Edit this news'),
+                    'label' => __('Edit this news story'),
                 ),
             ),
         ),
         'delete' => array(
             'action' => array(
                 'dialog' => array(
-                    'title' => __('Delete this news'),
+                    'title' => __('Delete this news story'),
                 ),
             ),
         ),
     ),
     'appdesk' => array(
         'texts' => array(
-            'items' => __("news"),
-            'item' => __("news")
+            'items' => __("news stories"),
+            'item' => __("news story")
         ),
         'adds' => array(
             'post' => array(
-                'label' => __('Add a news'),
+                'label' => __('Add a news story'),
                 'action' => array(
                     'tab' => array(
-                        'label' => __('Add a news'),
+                        'label' => __('Add a news story'),
                     ),
                 ),
             ),
