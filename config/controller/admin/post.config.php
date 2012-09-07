@@ -12,7 +12,9 @@ return array(
         'delete in the following languages' => __('Delete this news story in the following languages:'),
         'item deleted' => __('This news story has been deleted.'),
         'not found' => __('News story not found'),
-        'blank_state_item_text' => __('news story'),
+        'error added in lang' => __('This news story cannot be added {lang}.'),
+        'item inexistent in lang yet' => __('This news story has not been added in {lang} yet.'),
+        'add a item in lang' => __('Add a new news story in {lang}'),
     ),
     'tab' => array(
         'iconUrl' => 'static/apps/noviusos_news/img/news-16.png',
