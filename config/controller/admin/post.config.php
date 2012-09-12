@@ -14,7 +14,8 @@ return array(
         'not found' => __('News story not found'),
         'error added in lang' => __('This news story cannot be added {lang}.'),
         'item inexistent in lang yet' => __('This news story has not been added in {lang} yet.'),
-        'add a item in lang' => __('Add a new news story in {lang}'),
+        'add an item in lang' => __('Add a new news story in {lang}'),
+        'delete an item' => __('Delete a news story'),
     ),
     'tab' => array(
         'iconUrl' => 'static/apps/noviusos_news/img/news-16.png',
