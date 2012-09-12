@@ -38,7 +38,7 @@ $appdesk = array(
             'items' => __("news stories"),
             'item' => __("news story")
         ),
-        'adds' => array(
+        'buttons' => array(
             'post' => array(
                 'label' => __('Add a news story'),
                 'action' => array(
