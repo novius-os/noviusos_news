@@ -15,8 +15,13 @@ return array(
     'launchers' => array(
         'noviusos_news' => array(
             'name'    => 'News stories',
-            'url'     => 'admin/noviusos_news/appdesk',
-            'iconUrl' => 'static/apps/noviusos_news/img/news-32.png',
+            'action' => array(
+                'action' => 'nosTabs',
+                'tab' => array(
+                    'url'     => 'admin/noviusos_news/appdesk',
+                    'iconUrl' => 'static/apps/noviusos_news/img/news-32.png',
+                ),
+            ),
             'icon64'  => 'static/apps/noviusos_news/img/news-64.png',
         ),
     ),
