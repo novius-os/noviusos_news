@@ -1,4 +1,11 @@
 <?php
+$base = \Config::load('noviusos_blognews::controller/admin/appdesk', true);
+$base['appdesk']['texts'] = array(
+    'items' => __("news stories"),
+    'item' => __("news story")
+);
+return $base;
+/*
 $config = array(
     'query' => array(
         'model' => '\Nos\BlogNews\News\Model_Post',
@@ -54,3 +61,4 @@ $base = \Config::load('noviusos_blognews::controller/admin/appdesk', true);
 $config = array_merge($base, $config);
 $config['appdesk'] = \Arr::merge($config['appdesk'], $appdesk);
 return $config;
+*/

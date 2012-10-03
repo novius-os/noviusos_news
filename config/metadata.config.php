@@ -18,11 +18,9 @@ return array(
             'action' => array(
                 'action' => 'nosTabs',
                 'tab' => array(
-                    'url'     => 'admin/noviusos_news/appdesk',
-                    'iconUrl' => 'static/apps/noviusos_news/img/news-32.png',
+                    'url' => 'admin/noviusos_news/appdesk',
                 ),
             ),
-            'icon64'  => 'static/apps/noviusos_news/img/news-64.png',
         ),
     ),
     'enhancers' => array(
@@ -31,7 +29,6 @@ return array(
             'desc'  => '',
             //'enhancer' => 'news/front',
             'enhancer' => 'noviusos_news/front/home',
-            'iconUrl' => 'static/apps/news/img/news-16.png',
             'previewUrl' => 'admin/noviusos_news/application/preview',
             'dialog' => array(
                 'contentUrl' => 'admin/noviusos_news/application/popup',
@@ -63,5 +60,10 @@ return array(
                 ),
             ),
         ),
-    )
+    ),
+    'icons' => array(
+        64 => 'static/apps/noviusos_news/img/news-64.png',
+        32 => 'static/apps/noviusos_news/img/news-32.png',
+        16 => 'static/apps/noviusos_news/img/news-16.png',
+    ),
 );
