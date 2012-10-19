@@ -1,7 +1,7 @@
 <?php
 return array(
     'name'    => 'News stories',
-    'version' => '0.1',
+    'version' => '0.2',
     'icon16'  => 'static/apps/noviusos_news/img/news-16.png',
     'icon64'  => 'static/apps/noviusos_news/img/news-64.png',
     'provider' => array(
