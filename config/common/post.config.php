@@ -1,4 +1,7 @@
 <?php
+
+\Nos\I18n::current_dictionary(array('noviusos_news::common'));
+
 $base = \Config::load('noviusos_blognews::common/post', true);
 $base['actions'] = array(
     'Nos\\BlogNews\\News\\Model_Post.add' => array(
