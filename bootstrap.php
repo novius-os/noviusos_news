@@ -5,6 +5,7 @@ $configFiles = array(
     'config',
     'controller/front',
     'controller/admin/appdesk',
+    'controller/admin/application',
     'controller/admin/category',
     'controller/admin/post',
     'controller/admin/tag',
@@ -18,9 +19,10 @@ $configFiles = array(
 
 $namespace = 'Nos\\BlogNews\News';
 $application_name = 'noviusos_news';
+$icon = 'news';
 
 foreach ($configFiles as $configFile) {
-    \Event::register_function('config|noviusos_blognews::'.$configFile, function(&$config) use ($namespace, $application_name) {
-        $config = \Config::placeholderReplace($config, array('namespace' => $namespace, 'application_name' => $application_name));
+    \Event::register_function('config|noviusos_blognews::'.$configFile, function(&$config) use ($namespace, $application_name, $icon) {
+        $config = \Config::placeholderReplace($config, array('namespace' => $namespace, 'application_name' => $application_name, 'icon' => $icon));
     });
 }
