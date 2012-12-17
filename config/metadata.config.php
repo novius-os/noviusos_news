@@ -40,7 +40,7 @@ return array(
             'dialog' => array(
                 'contentUrl' => 'admin/noviusos_news/application/popup',
                 'width' => 450,
-                'height' => 400,
+                'height' => 450,
                 'ajax' => true,
             ),
         ),
@@ -52,7 +52,7 @@ return array(
             'dialog' => array(
                 'contentUrl' => 'admin/noviusos_news/application/popup',
                 'width' => 450,
-                'height' => 400,
+                'height' => 450,
                 'ajax' => true,
             ),
         ),
