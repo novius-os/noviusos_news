@@ -25,24 +25,17 @@ $base['actions'] = array(
 
 $base['i18n'] = array(
     // Crud
-    'successfully added' => __('News story successfully added.'),
-    'successfully saved' => __('News story successfully saved.'),
-    'successfully deleted' => __('The news story has successfully been deleted!'),
+    'successfully added' => __('Done! The news story has been added.'),
+    'successfully deleted' => __('The news story has been deleted.'),
 
     // General errors
-    'item deleted' => __('This news story has been deleted.'),
-    'not found' => __('News story not found'),
-
-    // Blank slate
-    'error added in context' => __('This news story cannot be added {context}.'),
-    'item inexistent in context yet' => __('This news story has not been added in {context} yet.'),
-    'add an item in context' => __('Add a new news story in {context}'),
+    'item deleted' => __('This news story doesn’t exist any more. It has been deleted.'),
+    'not found' => __('We cannot find this news story.'),
 
     // Deletion popup
-    'delete an item' => __('Delete a news story'),
-    'you are about to delete, confim' => __('You are about to delete the news story <span style="font-weight: bold;">":title"</span>. Are you sure you want to continue?'),
-    'you are about to delete' => __('You are about to delete the news story <span style="font-weight: bold;">":title"</span>.'),
-    'exists in multiple context' => __('This news story exists in <strong>{count} contexts</strong>.'),
+    'delete an item' => __('Deleting the news story ‘{{title}}’'),
+    'you are about to delete, confim' => __('Last chance, there’s no undo. Do you really want to delete this news story?'),
+    'exists in multiple context' => __('This news story exists in <strong>{{count}} contexts</strong>.'),
     'delete in the following contexts' => __('Delete this news story in the following contexts:'),
 );
 
