@@ -11,8 +11,6 @@
 return array(
     'name'    => 'News stories',
     'version' => '0.2',
-    'icon16'  => 'static/apps/noviusos_news/img/news-16.png',
-    'icon64'  => 'static/apps/noviusos_news/img/news-64.png',
     'provider' => array(
         'name' => 'Novius OS',
     ),
@@ -58,8 +56,8 @@ return array(
         ),
     ),
     'icons' => array(
-        64 => '/static/apps/noviusos_news/img/news-64.png',
-        32 => '/static/apps/noviusos_news/img/news-32.png',
         16 => '/static/apps/noviusos_news/img/news-16.png',
+        32 => '/static/apps/noviusos_news/img/news-32.png',
+        64 => '/static/apps/noviusos_news/img/news-64.png',
     ),
 );
