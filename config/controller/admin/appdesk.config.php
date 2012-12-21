@@ -15,4 +15,13 @@ $base['appdesk']['texts'] = array(
     'items' => __("news stories"),
     'item' => __("news story")
 );
+
+$base['i18n'] = array(
+    'item' => __('news story'),
+    'items' => __('news stories'),
+    'showNbItems' => __('Showing {{x}} news stories out of {{y}}'),
+    'showOneItem' => __('Show 1 news story'),
+    'showNoItem' => __('No news stories'),
+    'showAll' => __('Show all news stories'),
+);
 return $base;

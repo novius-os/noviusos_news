@@ -23,20 +23,36 @@ $base['actions'] = array(
     ),
 );
 
+
 $base['i18n'] = array(
     // Crud
-    'successfully added' => __('Done! The news story has been added.'),
-    'successfully deleted' => __('The news story has been deleted.'),
+    'notification item added' => __('Done! The news story has been added.'),
+    'notification item deleted' => __('The news story has been deleted.'),
 
     // General errors
-    'item deleted' => __('This news story doesn’t exist any more. It has been deleted.'),
-    'not found' => __('We cannot find this news story.'),
+    'notification item does not exist anymore' => __('This news story doesn’t exist any more. It has been deleted.'),
+    'notification item not found' => __('We cannot find this news story.'),
+
+    // Blank slate
+    'translate error parent not available in context' => __('We’re afraid this news story cannot be added in {{context}} because its <a>parent</a> is not available in this context yet.'),
+    'translate error parent not available in language' => __('We’re afraid this news story cannot be added in {{language}} because its <a>parent</a> is not available in this language yet.'),
 
     // Deletion popup
-    'delete an item' => __('Deleting the news story ‘{{title}}’'),
-    'you are about to delete, confim' => __('Last chance, there’s no undo. Do you really want to delete this news story?'),
-    'exists in multiple context' => __('This news story exists in <strong>{{count}} contexts</strong>.'),
-    'delete in the following contexts' => __('Delete this news story in the following contexts:'),
+    'deleting item title' => __('Deleting the news story ‘{{title}}’'),
+    'deleting confirmation' => __('Last chance, there’s no undo. Do you really want to delete this news story?'),
+
+    # Delete action's labels
+    'deleting button 1 item' => __('Delete this news story'),
+
+    '1 item' => __('1 news story'),
+    'N items' => __('{{count}} news stories'),
+
+    # Keep only if the model has the behaviour Contextable
+    'deleting with N contexts' => __('This news story exists in <strong>{{context_count}} contexts</strong>.'),
+    'deleting with N languages' => __('This news story exists in <strong>{{language_count}} languages</strong>.'),
+
+    'deleting following contexts' => __('Delete this news story in the following contexts:'),
+    'deleting following languages' => __('Delete this news story in the following languages:'),
 );
 
 return $base;
