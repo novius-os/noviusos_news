@@ -39,10 +39,9 @@ $base['i18n'] = array(
 
     // Deletion popup
     'deleting item title' => __('Deleting the news story ‘{{title}}’'),
-    'deleting confirmation' => __('Last chance, there’s no undo. Do you really want to delete this news story?'),
 
     # Delete action's labels
-    'deleting button 1 item' => __('Delete this news story'),
+    'deleting button 1 item' => __('Yes, delete this news story'),
 
     '1 item' => __('1 news story'),
     'N items' => __('{{count}} news stories'),
@@ -50,9 +49,6 @@ $base['i18n'] = array(
     # Keep only if the model has the behaviour Contextable
     'deleting with N contexts' => __('This news story exists in <strong>{{context_count}} contexts</strong>.'),
     'deleting with N languages' => __('This news story exists in <strong>{{language_count}} languages</strong>.'),
-
-    'deleting following contexts' => __('Delete this news story in the following contexts:'),
-    'deleting following languages' => __('Delete this news story in the following languages:'),
 );
 
 return $base;
