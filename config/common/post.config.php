@@ -26,7 +26,7 @@ $base['actions'] = array(
 
 $base['i18n'] = array(
     // Crud
-    'notification item added' => __('Done! The news story has been added.'),
+    'notification item added' => __('Good! A new story added to your collection.'),
     'notification item deleted' => __('The news story has been deleted.'),
 
     // General errors
