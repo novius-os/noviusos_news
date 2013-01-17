@@ -18,6 +18,7 @@ return array(
     'permission' => array(
 
     ),
+    'i18n_file' => 'noviusos_news::metadata',
     'launchers' => array(
         'noviusos_news' => array(
             'name'    => 'News stories',
@@ -31,7 +32,7 @@ return array(
     ),
     'enhancers' => array(
         'home_news' => array(
-            'title' => 'Home news stories',
+            'title' => 'Home page news stories',
             'desc'  => '',
             'enhancer' => 'noviusos_news/front/home',
             'iconUrl' => 'static/apps/noviusos_news/img/news-16.png',
