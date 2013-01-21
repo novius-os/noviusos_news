@@ -34,8 +34,8 @@ $base['i18n'] = array(
     'notification item not found' => __('We cannot find this news story.'),
 
     // Blank slate
-    'translate error parent not available in context' => __('We’re afraid this news story cannot be added in {{context}} because its <a>parent</a> is not available in this context yet.'),
-    'translate error parent not available in language' => __('We’re afraid this news story cannot be added in {{language}} because its <a>parent</a> is not available in this language yet.'),
+    'translate error parent not available in context' => __('We’re afraid this news story cannot be added to {{context}} because its <a>parent</a> is not available in this context yet.'),
+    'translate error parent not available in language' => __('We’re afraid this news story cannot be translated into {{language}} because its <a>parent</a> is not available in this language yet.'),
 
     // Deletion popup
     'deleting item title' => __('Deleting the news story ‘{{title}}’'),
