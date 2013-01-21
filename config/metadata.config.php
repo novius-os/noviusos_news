@@ -37,8 +37,8 @@ return array(
             'iconUrl' => 'static/apps/noviusos_news/img/news-16.png',
             'dialog' => array(
                 'contentUrl' => 'admin/noviusos_news/application/popup',
-                'width' => 450,
-                'height' => 450,
+                'width' => 370,
+                'height' => 400,
                 'ajax' => true,
             ),
         ),
@@ -49,8 +49,8 @@ return array(
             'iconUrl' => 'static/apps/noviusos_news/img/news-16.png',
             'dialog' => array(
                 'contentUrl' => 'admin/noviusos_news/application/popup',
-                'width' => 450,
-                'height' => 450,
+                'width' => 370,
+                'height' => 400,
                 'ajax' => true,
             ),
         ),
