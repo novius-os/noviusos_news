@@ -20,8 +20,9 @@ $base['i18n'] = array(
     'item' => __('news story'),
     'items' => __('news stories'),
     'showNbItems' => __('Showing {{x}} news stories out of {{y}}'),
-    'showOneItem' => __('Show 1 news story'),
+    'showOneItem' => __('Showing 1 news story'),
     'showNoItem' => __('No news stories'),
+    // Note to translator: This is the action that clears the 'Search' field
     'showAll' => __('Show all news stories'),
 );
 return $base;
