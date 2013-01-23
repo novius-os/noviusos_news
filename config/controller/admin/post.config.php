@@ -8,15 +8,7 @@
  * @link http://www.novius-os.org
  */
 
-return array(
-    'controller_url'  => 'admin/noviusos_news/post',
-    'model' => 'Nos\\BlogNews\\News\\Model_Post',
-    'i18n_file' => 'noviusos_news::common',
-    'tab' => array(
-        'iconUrl' => 'static/apps/noviusos_news/img/news-16.png',
-        'labels' => array(
-            'insert' => __('Add a news story'),
-            'blankSlate' => __('Translate a news story'),
-        ),
-    )
-);
+$base = \Config::load('noviusos_blognews::controller/admin/post', true);
+\Arr::set($base, 'tab.iconUrl', 'static/apps/noviusos_news/img/news-16.png');
+return $base;
+
