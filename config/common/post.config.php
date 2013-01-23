@@ -11,12 +11,10 @@
 \Nos\I18n::current_dictionary(array('noviusos_news::common'));
 
 $base = \Config::load('noviusos_blognews::common/post', true);
-$base['actions'] = array(
-    'Nos\\BlogNews\\News\\Model_Post.add' => array(
-        'label' => __('Add a news story'),
-    ),
-);
 
+$base['actions']['list']['add'] =array(
+    'label' => __('Add a news story'),
+);
 
 $base['i18n'] = array(
     // Crud
