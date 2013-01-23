@@ -15,12 +15,6 @@ $base['actions'] = array(
     'Nos\\BlogNews\\News\\Model_Post.add' => array(
         'label' => __('Add a news story'),
     ),
-    'Nos\\BlogNews\\News\\Model_Post.edit' => array(
-        'label' => __('Edit this news story'),
-    ),
-    'Nos\\BlogNews\\News\\Model_Post.delete' => array(
-        'label' => __('Delete this news story'),
-    ),
 );
 
 
@@ -33,15 +27,12 @@ $base['i18n'] = array(
     'notification item does not exist anymore' => __('This news story doesn’t exist any more. It has been deleted.'),
     'notification item not found' => __('We cannot find this news story.'),
 
-    // Blank slate
-    'translate error parent not available in context' => __('We’re afraid this news story cannot be added to {{context}} because its <a>parent</a> is not available in this context yet.'),
-    'translate error parent not available in language' => __('We’re afraid this news story cannot be translated into {{language}} because its <a>parent</a> is not available in this language yet.'),
-
     // Deletion popup
     'deleting item title' => __('Deleting the news story ‘{{title}}’'),
 
     # Delete action's labels
     'deleting button 1 item' => __('Yes, delete this news story'),
+    'deleting button N items' => __('Yes, delete these {{count}} news stories'),
 
     '1 item' => __('1 news story'),
     'N items' => __('{{count}} news stories'),

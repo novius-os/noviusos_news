@@ -6,10 +6,10 @@
 // 6 out of 6 words are translated (100%).
 
 return array(
-    #. Overwritten
+    #: metadata
     'News stories' => 'Actualités',
 
-    #. Overwritten
+    #: metadata
     'Home page news stories' => 'Actualités (page d’accueil)',
 
 );
