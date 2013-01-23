@@ -8,6 +8,8 @@
  * @link http://www.novius-os.org
  */
 
+\Nos\I18n::current_dictionary(array('noviusos_news::common'));
+
 return array(
     'controller_url'  => 'admin/noviusos_news/post',
     'model' => 'Nos\\BlogNews\\News\\Model_Post',
