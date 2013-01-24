@@ -42,12 +42,6 @@ return array(
     #: config/config.php:12
     'News stories' => 'Actualités',
 
-    #: config/common/post.config.php:19
-    'Edit this news story' => 'Modifier cette actualité',
-
-    #: config/common/post.config.php:22
-    'Delete this news story' => 'Supprimer cette actualité',
-
     #. Crud
     #: config/common/post.config.php:28
     'Good! A new story added to your collection.' => 'C’est dans la boite. Actualité ajoutée.',
