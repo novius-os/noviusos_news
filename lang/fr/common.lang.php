@@ -16,9 +16,6 @@ return array(
     #: config/common/post.config.php:16
     'Add a news story' => 'Ajouter une actualité',
 
-    #: config/controller/admin/post.config.php:19
-    'Translate a news story' => 'Traduire une actualité',
-
     #: config/controller/admin/appdesk.config.php:15
     #: config/controller/admin/appdesk.config.php:21
     'news stories' => 'actualités',
