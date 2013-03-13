@@ -1,5 +1,5 @@
 <?php
-namespace Fuel\Migrations;
+namespace Nos\BlogNews\News\Migrations;
 
 class Install extends \Nos\Migration
 {
