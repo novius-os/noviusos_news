@@ -40,7 +40,7 @@ foreach ($configFiles as $configFile) {
     });
 }
 
-//Add 'blog_posts' relation on Model_User (related posts where the User is the author) 
+//Add 'blog_posts' relation on Model_User (related posts where the User is the author)
 \Event::register_function('config|noviusos_user::model/user', function(&$config) {
     $config['has_many']['news_posts'] = array(
         'key_from' => 'user_id',
