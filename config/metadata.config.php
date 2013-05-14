@@ -38,9 +38,9 @@ return array(
             'enhancer' => 'noviusos_news/front/home',
             'iconUrl' => 'static/apps/noviusos_news/img/news-16.png',
             'dialog' => array(
-                'contentUrl' => 'admin/noviusos_news/application/popup',
+                'contentUrl' => 'admin/noviusos_news/enhancer/popup',
                 'width' => 370,
-                'height' => 400,
+                'height' => 410,
                 'ajax' => true,
             ),
         ),
@@ -50,9 +50,9 @@ return array(
             'urlEnhancer' => 'noviusos_news/front/main',
             'iconUrl' => 'static/apps/noviusos_news/img/news-16.png',
             'dialog' => array(
-                'contentUrl' => 'admin/noviusos_news/application/popup',
+                'contentUrl' => 'admin/noviusos_news/enhancer/popup',
                 'width' => 370,
-                'height' => 400,
+                'height' => 410,
                 'ajax' => true,
             ),
         ),
