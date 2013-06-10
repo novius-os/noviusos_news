@@ -12,9 +12,7 @@
 
 $base = \Config::load('noviusos_blognews::common/post', true);
 
-$base['actions']['list']['add'] =array(
-    'label' => __('Add a news story'),
-);
+$base['actions']['list']['add']['label'] = __('Add a news story');
 
 $base['i18n'] = array(
     // Crud
