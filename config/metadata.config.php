@@ -33,7 +33,7 @@ return array(
     ),
     'enhancers' => array(
         'home_news' => array(
-            'title' => 'Home page news stories',
+            'title' => 'Links to news stories (e.g. for side column)',
             'desc'  => '',
             'enhancer' => 'noviusos_news/front/home',
             'iconUrl' => 'static/apps/noviusos_news/img/news-16.png',
