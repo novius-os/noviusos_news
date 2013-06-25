@@ -1,6 +1,6 @@
 <?php
 
-// Generated on 16/04/2013 19:15:50
+// Generated on 25/06/2013 11:06:52
 
 // 22 out of 22 messages are translated (100%).
 // 106 out of 106 words are translated (100%).
@@ -36,48 +36,48 @@ return array(
     #: config/config.php:12
     'News stories' => 'ニュース記事',
 
-    #: config/common/post.config.php:16
+    #: config/common/post.config.php:15
     'Add a news story' => 'ニュース記事を追加',
 
     #. Crud
-    #: config/common/post.config.php:21
+    #: config/common/post.config.php:19
     'Good! A new story added to your collection.' => 'ニュース記事がアプリケーションに追加されました。',
 
-    #: config/common/post.config.php:22
+    #: config/common/post.config.php:20
     'The news story has been deleted.' => 'ニュース記事が削除されました。',
 
     #. General errors
-    #: config/common/post.config.php:25
+    #: config/common/post.config.php:23
     'This news story doesn’t exist any more. It has been deleted.' => 'このニュース記事は存在しません。削除されました。',
 
-    #: config/common/post.config.php:26
+    #: config/common/post.config.php:24
     'We cannot find this news story.' => 'このニュース記事は見つかりませんでした。',
 
     #. Deletion popup
-    #: config/common/post.config.php:29
+    #: config/common/post.config.php:27
     'Deleting the news story ‘{{title}}’' => 'ニュース記事‘{{title}}’を削除しています',
 
     #. Delete action's labels
-    #: config/common/post.config.php:32
+    #: config/common/post.config.php:30
     'Yes, delete this news story' => 'はい、このニュース記事を削除します',
 
-    #: config/common/post.config.php:33
+    #: config/common/post.config.php:31
     'Yes, delete these {{count}} news stories' => 'はい、これら{{count}}件のニュース記事を削除します',
 
-    #: config/common/post.config.php:35
+    #: config/common/post.config.php:33
     '1 news story' => '1件のニュース記事',
 
-    #: config/common/post.config.php:36
+    #: config/common/post.config.php:34
     '{{count}} news stories' => '{{count}}件のニュース記事',
 
     #. Keep only if the model has the behaviour Contextable
-    #: config/common/post.config.php:39
+    #: config/common/post.config.php:37
     'This news story exists in <strong>{{context_count}} contexts</strong>.' => 'このニュース記事は<strong>{{context_count}}つのコンテキスト</strong>にあります。',
 
-    #: config/common/post.config.php:40
+    #: config/common/post.config.php:38
     'This news story exists in <strong>{{language_count}} languages</strong>.' => 'このニュース記事は<strong>{{language_count}}つの言語</strong>に翻訳されています。',
 
-    #: config/common/category.config.php:15
+    #: config/common/category.config.php:14
     'Add a category' => 'カテゴリーを追加',
 
 );
