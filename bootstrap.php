@@ -51,3 +51,16 @@ foreach ($configFiles as $configFile) {
 
     $config['behaviours']['Nos\Orm_Behaviour_Urlenhancer']['enhancers'][] = 'noviusos_blog';
 });
+
+Event::register_function('config|noviusos_comments::api', function(&$config)
+{
+    $news_config = \Config::application('noviusos_news');
+    if (isset($news_config['comments']['use_recaptcha'])) {
+        \Log::deprecated('The key "comments.use_recaptcha" in noviusos_news config file is deprecated, '.
+            'extend noviusos_comments::api configuration file instead.', 'Chiba.2');
+
+        \Arr::set($config, 'setups.Nos\BlogNews\News\Model_Post', array(
+            'use_recaptcha' => $news_config['comments']['use_recaptcha'],
+        ));
+    }
+});
