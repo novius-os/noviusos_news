@@ -32,7 +32,7 @@ $application_name = 'noviusos_news';
 $icon = 'news';
 
 foreach ($configFiles as $configFile) {
-    \Event::register_function('config|noviusos_news::'.$configFile, function(&$config) use ($namespace, $application_name, $icon) {
+    \Event::register_function('config|noviusos_news::'.$configFile, function (&$config) use ($namespace, $application_name, $icon) {
         $config = \Config::placeholderReplace($config, array(
             'namespace' => $namespace,
             'application_name' => $application_name,
@@ -42,7 +42,7 @@ foreach ($configFiles as $configFile) {
 }
 
 //Add 'blog_posts' relation on Model_User (related posts where the User is the author)
-\Event::register_function('config|noviusos_user::model/user', function(&$config) {
+\Event::register_function('config|noviusos_user::model/user', function (&$config) {
     $config['has_many']['news_posts'] = array(
         'key_from' => 'user_id',
         'model_to' => 'Nos\BlogNews\News\Model_Post',
@@ -52,8 +52,7 @@ foreach ($configFiles as $configFile) {
     $config['behaviours']['Nos\Orm_Behaviour_Urlenhancer']['enhancers'][] = 'noviusos_blog';
 });
 
-Event::register_function('config|noviusos_comments::api', function(&$config)
-{
+Event::register_function('config|noviusos_comments::api', function (&$config) {
     $news_config = \Config::application('noviusos_news');
     if (isset($news_config['comments']['use_recaptcha'])) {
         \Log::deprecated('The key "comments.use_recaptcha" in noviusos_news config file is deprecated, '.
