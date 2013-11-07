@@ -21,10 +21,9 @@ return array(
     'news story' => 'ニュース記事',
 
     #: config/controller/admin/appdesk.config.php:22
-    'Showing {{x}} news stories out of {{y}}' => '{{y}}件のニュース記事のうち、{{x}}件を表示しています',
-
-    #: config/controller/admin/appdesk.config.php:23
-    'Showing 1 news story' => '1件のニュース記事を表示しています',
+    'Showing 1 news story out of {{y}}' => array(
+        0 => '{{y}}件のニュース記事のうち、{{x}}件を表示しています',
+    ),
 
     #: config/controller/admin/appdesk.config.php:24
     'No news stories' => 'ニュース記事はありません。',
@@ -59,23 +58,25 @@ return array(
 
     #. Delete action's labels
     #: config/common/post.config.php:30
-    'Yes, delete this news story' => 'はい、このニュース記事を削除します',
-
-    #: config/common/post.config.php:31
-    'Yes, delete these {{count}} news stories' => 'はい、これら{{count}}件のニュース記事を削除します',
+    'Yes, delete this news story' => array(
+        0 => 'はい、これら{{count}}件のニュース記事を削除します',
+    ),
 
     #: config/common/post.config.php:33
-    '1 news story' => '1件のニュース記事',
-
-    #: config/common/post.config.php:34
-    '{{count}} news stories' => '{{count}}件のニュース記事',
+    '1 news story' => array(
+        0 => '{{count}}件のニュース記事',
+    ),
 
     #. Keep only if the model has the behaviour Contextable
     #: config/common/post.config.php:37
-    'This news story exists in <strong>{{context_count}} contexts</strong>.' => 'このニュース記事は<strong>{{context_count}}つのコンテキスト</strong>にあります。',
+    'This news story exists in <strong>one context</strong>.' => array(
+        0 => 'このニュース記事は<strong>{{context_count}}つのコンテキスト</strong>にあります。',
+    ),
 
     #: config/common/post.config.php:38
-    'This news story exists in <strong>{{language_count}} languages</strong>.' => 'このニュース記事は<strong>{{language_count}}つの言語</strong>に翻訳されています。',
+    'This news story exists in <strong>one language</strong>.' => array(
+        0 => 'このニュース記事は<strong>{{language_count}}つの言語</strong>に翻訳されています。',
+    ),
 
     #: config/common/category.config.php:14
     'Add a category' => 'カテゴリーを追加',

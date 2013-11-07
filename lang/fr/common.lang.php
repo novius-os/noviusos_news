@@ -21,10 +21,10 @@ return array(
     'news story' => 'actualité',
 
     #: config/controller/admin/appdesk.config.php:22
-    'Showing {{x}} news stories out of {{y}}' => '{{x}} actualités sur {{y}} affichées',
-
-    #: config/controller/admin/appdesk.config.php:23
-    'Showing 1 news story' => '1 actualité affichée',
+    'Showing 1 news story out of {{y}}' => array(
+        '1 actualité sur {{y}} affichée',
+        '{{x}} actualités sur {{y}} affichées',
+    ),
 
     #: config/controller/admin/appdesk.config.php:24
     'No news stories' => 'Pas d’actualité',
@@ -59,23 +59,29 @@ return array(
 
     #. Delete action's labels
     #: config/common/post.config.php:30
-    'Yes, delete this news story' => 'Oui, supprimer cette actualité',
-
-    #: config/common/post.config.php:31
-    'Yes, delete these {{count}} news stories' => 'Oui, supprimer ces {{count}} actualités',
+    'Yes, delete this news story' => array(
+        0 => 'Oui, supprimer cette actualité',
+        1 => 'Oui, supprimer ces {{count}} actualités',
+    ),
 
     #: config/common/post.config.php:33
-    '1 news story' => '1 actualité',
-
-    #: config/common/post.config.php:34
-    '{{count}} news stories' => '{{count}} actualités',
+    '1 news story' => array(
+        0 => '1 actualité',
+        1 => '{{count}} actualités',
+    ),
 
     #. Keep only if the model has the behaviour Contextable
     #: config/common/post.config.php:37
-    'This news story exists in <strong>{{context_count}} contexts</strong>.' => 'Cette actualité existe dans <strong>{{context_count}} contextes</strong>.',
+    'This news story exists in <strong>one context</strong>.' => array(
+        0 => 'Cette actualité existe dans <strong>un contexte</strong>.',
+        1 => 'Cette actualité existe dans <strong>{{context_count}} contextes</strong>.',
+    ),
 
     #: config/common/post.config.php:38
-    'This news story exists in <strong>{{language_count}} languages</strong>.' => 'Cette actualité existe dans <strong>{{language_count}} langues</strong>.',
+    'This news story exists in <strong>one language</strong>.' => array(
+        0 => 'Cette actualité existe dans <strong>une langue</strong>.',
+        1 => 'Cette actualité existe dans <strong>{{language_count}} langues</strong>.',
+    ),
 
     #: config/common/category.config.php:14
     'Add a category' => 'Ajouter une catégorie',
