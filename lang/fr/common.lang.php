@@ -1,9 +1,9 @@
 <?php
 
-// Generated on 19/08/2013 18:12:14
+// Generated on 07/11/2013 15:24:52
 
-// 22 out of 22 messages are translated (100%).
-// 106 out of 106 words are translated (100%).
+// 19 out of 19 messages are translated (100%).
+// 93 out of 93 words are translated (100%).
 
 return array(
     #: classes/model/post.model.php:14
@@ -20,17 +20,24 @@ return array(
     #: config/controller/admin/appdesk.config.php:20
     'news story' => 'actualité',
 
-    #: config/controller/admin/appdesk.config.php:22
-    'Showing 1 news story out of {{y}}' => array(
-        '1 actualité sur {{y}} affichée',
-        '{{x}} actualités sur {{y}} affichées',
+    #: config/controller/admin/appdesk.config.php:23
+    #: config/common/post.config.php:36
+    '1 news story' => array(
+        0 => '1 actualité',
+        1 => '{{count}} actualités',
     ),
 
-    #: config/controller/admin/appdesk.config.php:24
+    #: config/controller/admin/appdesk.config.php:27
+    'Showing 1 news story out of {{y}}' => array(
+        0 => '1 actualité sur {{y}} affichée',
+        1 => '{{x}} actualités sur {{y}} affichées',
+    ),
+
+    #: config/controller/admin/appdesk.config.php:30
     'No news stories' => 'Pas d’actualité',
 
     #. Note to translator: This is the action that clears the 'Search' field
-    #: config/controller/admin/appdesk.config.php:26
+    #: config/controller/admin/appdesk.config.php:32
     'Show all news stories' => 'Afficher toutes les actualités',
 
     #: config/config.php:12
@@ -57,27 +64,19 @@ return array(
     #: config/common/post.config.php:27
     'Deleting the news story ‘{{title}}’' => 'Supprimer l’actualité «&nbsp;{{title}}&nbsp;»',
 
-    #. Delete action's labels
-    #: config/common/post.config.php:30
+    #: config/common/post.config.php:31
     'Yes, delete this news story' => array(
         0 => 'Oui, supprimer cette actualité',
         1 => 'Oui, supprimer ces {{count}} actualités',
     ),
 
-    #: config/common/post.config.php:33
-    '1 news story' => array(
-        0 => '1 actualité',
-        1 => '{{count}} actualités',
-    ),
-
-    #. Keep only if the model has the behaviour Contextable
-    #: config/common/post.config.php:37
+    #: config/common/post.config.php:42
     'This news story exists in <strong>one context</strong>.' => array(
         0 => 'Cette actualité existe dans <strong>un contexte</strong>.',
         1 => 'Cette actualité existe dans <strong>{{context_count}} contextes</strong>.',
     ),
 
-    #: config/common/post.config.php:38
+    #: config/common/post.config.php:46
     'This news story exists in <strong>one language</strong>.' => array(
         0 => 'Cette actualité existe dans <strong>une langue</strong>.',
         1 => 'Cette actualité existe dans <strong>{{language_count}} langues</strong>.',
