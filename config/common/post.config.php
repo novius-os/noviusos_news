@@ -27,15 +27,25 @@ $base['i18n'] = array(
     'deleting item title' => __('Deleting the news story ‘{{title}}’'),
 
     # Delete action's labels
-    'deleting button 1 item' => __('Yes, delete this news story'),
-    'deleting button N items' => __('Yes, delete these {{count}} news stories'),
+    'deleting button N items' => n__(
+        'Yes, delete this news story',
+        'Yes, delete these {{count}} news stories'
+    ),
 
-    '1 item' => __('1 news story'),
-    'N items' => __('{{count}} news stories'),
+    'N items' => n__(
+        '1 news story',
+        '{{count}} news stories'
+    ),
 
     # Keep only if the model has the behaviour Contextable
-    'deleting with N contexts' => __('This news story exists in <strong>{{context_count}} contexts</strong>.'),
-    'deleting with N languages' => __('This news story exists in <strong>{{language_count}} languages</strong>.'),
+    'deleting with N contexts' => n__(
+        'This news story exists in <strong>one context</strong>.',
+        'This news story exists in <strong>{{context_count}} contexts</strong>.'
+    ),
+    'deleting with N languages' => n__(
+        'This news story exists in <strong>one language</strong>.',
+        'This news story exists in <strong>{{language_count}} languages</strong>.'
+    ),
 );
 
 return $base;
