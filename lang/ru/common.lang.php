@@ -1,9 +1,9 @@
 <?php
 
-// Generated on 02/12/2013 17:53:33
+// Generated on 03/12/2013 16:06:58
 
-// 22 out of 22 messages are translated (100%).
-// 106 out of 106 words are translated (100%).
+// 16 out of 19 messages are translated (84%).
+// 72 out of 93 words are translated (84%).
 
 return array(
     #: classes/model/post.model.php:14
@@ -20,17 +20,28 @@ return array(
     #: config/controller/admin/appdesk.config.php:20
     'news story' => 'новость',
 
-    #: config/controller/admin/appdesk.config.php:22
-    'Showing {{x}} news stories out of {{y}}' => 'Показано новостей: {{x}} из {{y}}',
-
     #: config/controller/admin/appdesk.config.php:23
-    'Showing 1 news story' => 'Показана 1 новость',
+    #: config/common/post.config.php:36
+    '1 news story' => array(
+        0 => '1 новость',
+        1 => '{{count}} новостей',
+        2 => '',
+        3 => '',
+    ),
 
-    #: config/controller/admin/appdesk.config.php:24
+    #: config/controller/admin/appdesk.config.php:27
+    'Showing 1 news story out of {{y}}' => array(
+        0 => '',
+        1 => '',
+        2 => 'Показано новостей: {{x}} из {{y}}',
+        3 => '',
+    ),
+
+    #: config/controller/admin/appdesk.config.php:30
     'No news stories' => 'Нет новостей',
 
     #. Note to translator: This is the action that clears the 'Search' field
-    #: config/controller/admin/appdesk.config.php:26
+    #: config/controller/admin/appdesk.config.php:32
     'Show all news stories' => 'Показать все новости',
 
     #: config/config.php:12
@@ -57,25 +68,29 @@ return array(
     #: config/common/post.config.php:27
     'Deleting the news story ‘{{title}}’' => 'Удаление новости «{{title}}»',
 
-    #. Delete action's labels
-    #: config/common/post.config.php:30
-    'Yes, delete this news story' => 'Да, удалить эту новость',
-
     #: config/common/post.config.php:31
-    'Yes, delete these {{count}} news stories' => 'Да, удалить {{count}} новостей',
+    'Yes, delete this news story' => array(
+        0 => 'Да, удалить эту новость',
+        1 => 'Да, удалить {{count}} новостей',
+        2 => '',
+        3 => '',
+    ),
 
-    #: config/common/post.config.php:33
-    '1 news story' => '1 новость',
+    #: config/common/post.config.php:42
+    'This news story exists in <strong>one context</strong>.' => array(
+        0 => '',
+        1 => '',
+        2 => 'Новость присутствует в <strong>{{context_count}} контекстах</strong>.',
+        3 => '',
+    ),
 
-    #: config/common/post.config.php:34
-    '{{count}} news stories' => '{{count}} новостей',
-
-    #. Keep only if the model has the behaviour Contextable
-    #: config/common/post.config.php:37
-    'This news story exists in <strong>{{context_count}} contexts</strong>.' => 'Новость присутствует в <strong>{{context_count}} контекстах</strong>.',
-
-    #: config/common/post.config.php:38
-    'This news story exists in <strong>{{language_count}} languages</strong>.' => 'Новость присутствует на <strong>{{language_count}} языках</strong>.',
+    #: config/common/post.config.php:46
+    'This news story exists in <strong>one language</strong>.' => array(
+        0 => '',
+        1 => '',
+        2 => 'Новость присутствует на <strong>{{language_count}} языках</strong>.',
+        3 => '',
+    ),
 
     #: config/common/category.config.php:14
     'Add a category' => 'Добавить категорию',

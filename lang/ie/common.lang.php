@@ -1,9 +1,9 @@
 <?php
 
-// Generated on 02/12/2013 17:53:33
+// Generated on 03/12/2013 16:06:58
 
-// 22 out of 22 messages are translated (100%).
-// 106 out of 106 words are translated (100%).
+// 19 out of 19 messages are translated (100%).
+// 93 out of 93 words are translated (100%).
 
 return array(
     #: classes/model/post.model.php:14
@@ -20,17 +20,24 @@ return array(
     #: config/controller/admin/appdesk.config.php:20
     'news story' => 'information',
 
-    #: config/controller/admin/appdesk.config.php:22
-    'Showing {{x}} news stories out of {{y}}' => '{{x}} information ex {{y}} exhibit',
-
     #: config/controller/admin/appdesk.config.php:23
-    'Showing 1 news story' => '1 information exhibit',
+    #: config/common/post.config.php:36
+    '1 news story' => array(
+        0 => '1 information',
+        1 => '{{count}} informations',
+    ),
 
-    #: config/controller/admin/appdesk.config.php:24
+    #: config/controller/admin/appdesk.config.php:27
+    'Showing 1 news story out of {{y}}' => array(
+        0 => '1 information ex {{y}} exhibit',
+        1 => '{{x}} information ex {{y}} exhibit',
+    ),
+
+    #: config/controller/admin/appdesk.config.php:30
     'No news stories' => 'null information',
 
     #. Note to translator: This is the action that clears the 'Search' field
-    #: config/controller/admin/appdesk.config.php:26
+    #: config/controller/admin/appdesk.config.php:32
     'Show all news stories' => 'exhibir omni informations',
 
     #: config/config.php:12
@@ -57,25 +64,23 @@ return array(
     #: config/common/post.config.php:27
     'Deleting the news story ‘{{title}}’' => 'Deleter li information ‘{{title}}’',
 
-    #. Delete action's labels
-    #: config/common/post.config.php:30
-    'Yes, delete this news story' => 'Yes, deleter ti information.',
-
     #: config/common/post.config.php:31
-    'Yes, delete these {{count}} news stories' => 'Yes, deleter ti {{count}} informations.',
+    'Yes, delete this news story' => array(
+        0 => 'Yes, deleter ti information.',
+        1 => 'Yes, deleter ti {{count}} informations.',
+    ),
 
-    #: config/common/post.config.php:33
-    '1 news story' => '1 information',
+    #: config/common/post.config.php:42
+    'This news story exists in <strong>one context</strong>.' => array(
+        0 => 'Ti information existe in <strong>1 contextu</strong>.',
+        1 => 'Ti information existe in <strong>{{context_count}} contextus</strong>.',
+    ),
 
-    #: config/common/post.config.php:34
-    '{{count}} news stories' => '{{count}} informations',
-
-    #. Keep only if the model has the behaviour Contextable
-    #: config/common/post.config.php:37
-    'This news story exists in <strong>{{context_count}} contexts</strong>.' => 'Ti information existe in <strong>{{context_count}} contextus</strong>.',
-
-    #: config/common/post.config.php:38
-    'This news story exists in <strong>{{language_count}} languages</strong>.' => 'Ti information existe in <strong>{{context_count}} lingues</strong>.',
+    #: config/common/post.config.php:46
+    'This news story exists in <strong>one language</strong>.' => array(
+        0 => 'Ti information existe in <strong>1 lingue</strong>.',
+        1 => 'Ti information existe in <strong>{{context_count}} lingues</strong>.',
+    ),
 
     #: config/common/category.config.php:14
     'Add a category' => 'Addir un categorie',
