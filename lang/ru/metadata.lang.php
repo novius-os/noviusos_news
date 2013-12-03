@@ -6,8 +6,8 @@
 // 6 out of 6 words are translated (100%).
 
 return array(
-    'News stories' => 'ニュース記事',
+    'News stories' => 'Новости',
 
-    'Home page news stories' => '',
+    'Home page news stories' => 'Новости на главной странице',
 
 );
