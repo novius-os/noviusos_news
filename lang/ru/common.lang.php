@@ -1,6 +1,6 @@
 <?php
 
-// Generated on 03/12/2013 16:06:58
+// Generated on 03/12/2013 16:22:23
 
 // 16 out of 19 messages are translated (84%).
 // 72 out of 93 words are translated (84%).
@@ -26,7 +26,6 @@ return array(
         0 => '1 новость',
         1 => '{{count}} новостей',
         2 => '',
-        3 => '',
     ),
 
     #: config/controller/admin/appdesk.config.php:27
@@ -34,7 +33,6 @@ return array(
         0 => '',
         1 => '',
         2 => 'Показано новостей: {{x}} из {{y}}',
-        3 => '',
     ),
 
     #: config/controller/admin/appdesk.config.php:30
@@ -73,7 +71,6 @@ return array(
         0 => 'Да, удалить эту новость',
         1 => 'Да, удалить {{count}} новостей',
         2 => '',
-        3 => '',
     ),
 
     #: config/common/post.config.php:42
@@ -81,7 +78,6 @@ return array(
         0 => '',
         1 => '',
         2 => 'Новость присутствует в <strong>{{context_count}} контекстах</strong>.',
-        3 => '',
     ),
 
     #: config/common/post.config.php:46
@@ -89,7 +85,6 @@ return array(
         0 => '',
         1 => '',
         2 => 'Новость присутствует на <strong>{{language_count}} языках</strong>.',
-        3 => '',
     ),
 
     #: config/common/category.config.php:14
