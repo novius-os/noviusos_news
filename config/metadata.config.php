@@ -10,7 +10,7 @@
 
 return array(
     'name'    => 'News stories',
-    'version' => 'chiba.2.3.3',
+    'version' => 'chiba.2.4',
     'provider' => array(
         'name' => 'Novius OS',
     ),
