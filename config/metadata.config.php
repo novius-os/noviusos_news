@@ -20,6 +20,7 @@ return array(
     ),
     'i18n_file' => 'noviusos_news::metadata',
     'requires' => array('noviusos_blognews', 'noviusos_comments'),
+    'extends' => array('noviusos_menu'),
     'launchers' => array(
         'noviusos_news' => array(
             'name'    => 'News stories',
