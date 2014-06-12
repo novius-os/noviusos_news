@@ -57,7 +57,7 @@ return array(
                         'empty' => __('No news story selected'),
                         'add' => __('Pick a news story'),
                         'edit' => __('Pick another news story'),
-                        'delete' => __('Unselect news story'),
+                        'delete' => __('Un-select this news story'),
                     ),
                 ),
             ),
