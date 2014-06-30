@@ -1,17 +1,11 @@
 <?php
 
-// Generated on 03/12/2013 16:22:23
+// Generated on 30/06/2014 14:54:18
 
-// 19 out of 19 messages are translated (100%).
-// 93 out of 93 words are translated (100%).
+// 29 out of 29 messages are translated (100%).
+// 135 out of 135 words are translated (100%).
 
 return array(
-    #: classes/model/post.model.php:14
-    'Use news story title' => 'Reprendre le titre de l’actualité',
-
-    #: classes/model/post.model.php:15
-    'Use news story summary' => 'Reprendre le chapeau de l’actualité',
-
     #: config/controller/admin/appdesk.config.php:15
     #: config/controller/admin/appdesk.config.php:21
     'news stories' => 'actualités',
@@ -40,8 +34,8 @@ return array(
     #: config/controller/admin/appdesk.config.php:32
     'Show all news stories' => 'Afficher toutes les actualités',
 
-    #: config/config.php:12
-    'News stories' => 'Actualités',
+    #: config/common/category.config.php:14
+    'Add a category' => 'Ajouter une catégorie',
 
     #: config/common/post.config.php:15
     'Add a news story' => 'Ajouter une actualité',
@@ -82,7 +76,43 @@ return array(
         1 => '',
     ),
 
-    #: config/common/category.config.php:14
-    'Add a category' => 'Ajouter une catégorie',
+    #: config/menu/item/category.config.php:46
+    'News story category:' => 'Catégorie d\'actualités',
+
+    #: config/menu/item/category.config.php:57
+    'No news story category selected' => 'Aucune catégorie d\'actualités sélectionnée',
+
+    #: config/menu/item/category.config.php:58
+    'Pick a news story category' => 'Choisir une catégorie d\'actualités',
+
+    #: config/menu/item/category.config.php:59
+    'Pick another news story category' => 'Choisir une autre catégorie d\'actualités',
+
+    #: config/menu/item/category.config.php:60
+    'Un-select this news story category' => 'Dé-sélectionner cette catégorie d\'actualités',
+
+    #: config/menu/item/post.config.php:46
+    'News story post:' => 'Actualité :',
+
+    #: config/menu/item/post.config.php:57
+    'No news story selected' => 'Aucune actualité sélectionnée',
+
+    #: config/menu/item/post.config.php:58
+    'Pick a news story' => 'Choisir une actualité',
+
+    #: config/menu/item/post.config.php:59
+    'Pick another news story' => 'Choisir une autre actualité',
+
+    #: config/menu/item/post.config.php:60
+    'Un-select this news story' => 'Dé-sélectionner cette actualité',
+
+    #: config/config.php:12
+    'News stories' => 'Actualités',
+
+    #: classes/model/post.model.php:16
+    'Use news story title' => 'Reprendre le titre de l’actualité',
+
+    #: classes/model/post.model.php:17
+    'Use news story summary' => 'Reprendre le chapeau de l’actualité',
 
 );
