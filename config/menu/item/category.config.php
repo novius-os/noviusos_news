@@ -11,8 +11,8 @@
 return array(
     'name' => 'News story category',
     'texts' => array(
-        'add' => 'Add a new news story category link',
-        'new' => 'New news story category link',
+        'add' => __('Add a news story category link'),
+        'new' => __('New news story category link'),
     ),
     'icon' => 'static/apps/noviusos_news/img/category-16.png',
 

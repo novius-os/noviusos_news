@@ -11,8 +11,8 @@
 return array(
     'name' => 'News story post',
     'texts' => array(
-        'add' => 'Add a new news story link',
-        'new' => 'New news story link',
+        'add' => __('Add a news story link'),
+        'new' => __('New news story link'),
     ),
     'icon' => 'static/apps/noviusos_news/img/news-16.png',
 
