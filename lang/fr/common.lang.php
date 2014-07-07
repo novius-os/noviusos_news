@@ -1,9 +1,9 @@
 <?php
 
-// Generated on 30/06/2014 14:54:18
+// Generated on 07/07/2014 11:51:57
 
-// 29 out of 29 messages are translated (100%).
-// 135 out of 135 words are translated (100%).
+// 33 out of 33 messages are translated (100%).
+// 155 out of 155 words are translated (100%).
 
 return array(
     #: config/controller/admin/appdesk.config.php:15
@@ -76,6 +76,12 @@ return array(
         1 => '',
     ),
 
+    #: config/menu/item/category.config.php:14
+    'Add a news story category link' => 'Ajouter un lien vers une catégorie d\'actualités',
+
+    #: config/menu/item/category.config.php:15
+    'New news story category link' => 'Nouveau lien vers une catégorie d\'actualités',
+
     #: config/menu/item/category.config.php:46
     'News story category:' => 'Catégorie d’actualités',
 
@@ -90,6 +96,12 @@ return array(
 
     #: config/menu/item/category.config.php:60
     'Un-select this news story category' => 'Dé-sélectionner cette catégorie d’actualités',
+
+    #: config/menu/item/post.config.php:14
+    'Add a news story link' => 'Ajouter un lien vers une actualité',
+
+    #: config/menu/item/post.config.php:15
+    'New news story link' => 'Nouveau lien vers une actualité',
 
     #: config/menu/item/post.config.php:46
     'News story post:' => 'Actualité :',
