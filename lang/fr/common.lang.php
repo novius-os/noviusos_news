@@ -77,19 +77,19 @@ return array(
     ),
 
     #: config/menu/item/category.config.php:46
-    'News story category:' => 'Catégorie d\'actualités',
+    'News story category:' => 'Catégorie d’actualités',
 
     #: config/menu/item/category.config.php:57
-    'No news story category selected' => 'Aucune catégorie d\'actualités sélectionnée',
+    'No news story category selected' => 'Aucune catégorie d’actualités sélectionnée',
 
     #: config/menu/item/category.config.php:58
-    'Pick a news story category' => 'Choisir une catégorie d\'actualités',
+    'Pick a news story category' => 'Choisir une catégorie d’actualités',
 
     #: config/menu/item/category.config.php:59
-    'Pick another news story category' => 'Choisir une autre catégorie d\'actualités',
+    'Pick another news story category' => 'Choisir une autre catégorie d’actualités',
 
     #: config/menu/item/category.config.php:60
-    'Un-select this news story category' => 'Dé-sélectionner cette catégorie d\'actualités',
+    'Un-select this news story category' => 'Dé-sélectionner cette catégorie d’actualités',
 
     #: config/menu/item/post.config.php:46
     'News story post:' => 'Actualité :',
