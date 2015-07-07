@@ -49,7 +49,7 @@ foreach ($configFiles as $configFile) {
         'key_to'   => 'post_author_id',
     );
 
-    $config['behaviours']['Nos\Orm_Behaviour_Urlenhancer']['enhancers'][] = 'noviusos_blog';
+    $config['behaviours']['Nos\Orm_Behaviour_Urlenhancer']['enhancers'][] = 'noviusos_news';
 });
 
 Event::register_function('config|noviusos_comments::api', function (&$config) {
